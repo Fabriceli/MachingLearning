@@ -1,5 +1,7 @@
 # Byte-compiled / optimized / DLL files
 __pycache__/
+DeepLearning/data
+*.DS_Store
 *.py[cod]
 *$py.class
 
@@ -102,3 +104,398 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+### Python template
+# Byte-compiled / optimized / DLL files
+# C extensions
+
+# Distribution / packaging
+
+pip-wheel-metadata/
+share/python-wheels/
+
+
+# Unit test / coverage reports
+.nox/
+
+
+
+
+# IPython
+profile_default/
+ipython_config.py
+
+
+# pipenv
+#   According to pypa/pipenv#598, it is recommended to include Pipfile.lock in version control.
+#   However, in case of collaboration, if having platform-specific dependencies or dependencies
+#   having no cross-platform support, pipenv may install dependencies that don't work, or not
+#   install all needed dependencies.
+#Pipfile.lock
+
+# mypy
+
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+### JupyterNotebooks template
+# gitignore template for Jupyter Notebooks
+# website: http://jupyter.org/
+
+
+# Remove previous ipynb_checkpoints
+#   git rm -r .ipynb_checkpoints/
+#
+
+### JetBrains template
+# Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio and WebStorm
+# Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
+
+# User-specific stuff
+.idea
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/usage.statistics.xml
+.idea/**/dictionaries
+.idea/**/shelf
+
+# Generated files
+.idea/**/contentModel.xml
+
+# Sensitive or high-churn files
+.idea/**/dataSources/
+.idea/**/dataSources.ids
+.idea/**/dataSources.local.xml
+.idea/**/sqlDataSources.xml
+.idea/**/dynamic.xml
+.idea/**/uiDesigner.xml
+.idea/**/dbnavigator.xml
+
+# Gradle
+.idea/**/gradle.xml
+.idea/**/libraries
+
+# Gradle and Maven with auto-import
+# When using Gradle or Maven with auto-import, you should exclude module files,
+# since they will be recreated, and may cause churn.  Uncomment if using
+# auto-import.
+# .idea/modules.xml
+# .idea/*.iml
+# .idea/modules
+# *.iml
+# *.ipr
+
+# CMake
+cmake-build-*/
+
+# Mongo Explorer plugin
+.idea/**/mongoSettings.xml
+
+# File-based project format
+*.iws
+
+# IntelliJ
+out/
+
+# mpeltonen/sbt-idea plugin
+.idea_modules/
+
+# JIRA plugin
+atlassian-ide-plugin.xml
+
+# Cursive Clojure plugin
+.idea/replstate.xml
+
+# Crashlytics plugin (for Android Studio and IntelliJ)
+com_crashlytics_export_strings.xml
+crashlytics.properties
+crashlytics-build.properties
+fabric.properties
+
+# Editor-based Rest Client
+.idea/httpRequests
+
+# Android studio 3.1+ serialized cache file
+.idea/caches/build_file_checksums.ser
+
+将删除 .DS_Store
+将删除 .idea/MachingLearning.iml
+将删除 .idea/encodings.xml
+将删除 .idea/misc.xml
+将删除 .idea/modules.xml
+将删除 DeepLearning/Lesson2.ipynb
+将删除 DeepLearning/data/bears/black/00000000.jpg
+将删除 DeepLearning/data/bears/black/00000001.jpg
+将删除 DeepLearning/data/bears/black/00000003.jpg
+将删除 DeepLearning/data/bears/black/00000004.jpg
+将删除 DeepLearning/data/bears/black/00000005.jpg
+将删除 DeepLearning/data/bears/black/00000006.jpg
+将删除 DeepLearning/data/bears/black/00000007.jpg
+将删除 DeepLearning/data/bears/black/00000008.jpg
+将删除 DeepLearning/data/bears/black/00000009.jpg
+将删除 DeepLearning/data/bears/black/00000010.jpg
+将删除 DeepLearning/data/bears/black/00000011.jpg
+将删除 DeepLearning/data/bears/black/00000013.jpg
+将删除 DeepLearning/data/bears/black/00000014.jpg
+将删除 DeepLearning/data/bears/black/00000015.jpg
+将删除 DeepLearning/data/bears/black/00000018.jpg
+将删除 DeepLearning/data/bears/black/00000019.jpg
+将删除 DeepLearning/data/bears/black/00000022.jpg
+将删除 DeepLearning/data/bears/black/00000023.jpg
+将删除 DeepLearning/data/bears/black/00000025.jpg
+将删除 DeepLearning/data/bears/black/00000026.jpg
+将删除 DeepLearning/data/bears/black/00000027.jpg
+将删除 DeepLearning/data/bears/black/00000028.jpg
+将删除 DeepLearning/data/bears/black/00000029.jpg
+将删除 DeepLearning/data/bears/black/00000030.jpg
+将删除 DeepLearning/data/bears/black/00000031.gif
+将删除 DeepLearning/data/bears/black/00000032.jpg
+将删除 DeepLearning/data/bears/black/00000033.JPG
+将删除 DeepLearning/data/bears/black/00000034.jpg
+将删除 DeepLearning/data/bears/black/00000035.png
+将删除 DeepLearning/data/bears/black/00000036.jpg
+将删除 DeepLearning/data/bears/black/00000037.jpg
+将删除 DeepLearning/data/bears/black/00000038.jpg
+将删除 DeepLearning/data/bears/black/00000039.jpg
+将删除 DeepLearning/data/bears/black/00000041.JPG
+将删除 DeepLearning/data/bears/black/00000043.JPG
+将删除 DeepLearning/data/bears/black/00000044.jpg
+将删除 DeepLearning/data/bears/black/00000045.jpg
+将删除 DeepLearning/data/bears/black/00000046.jpg
+将删除 DeepLearning/data/bears/black/00000047.jpg
+将删除 DeepLearning/data/bears/black/00000048.jpg
+将删除 DeepLearning/data/bears/black/00000049.jpg
+将删除 DeepLearning/data/bears/black/00000050.jpg
+将删除 DeepLearning/data/bears/black/00000051.jpg
+将删除 DeepLearning/data/bears/black/00000052.jpg
+将删除 DeepLearning/data/bears/black/00000053.jpg
+将删除 DeepLearning/data/bears/black/00000054.jpg
+将删除 DeepLearning/data/bears/black/00000056.jpeg
+将删除 DeepLearning/data/bears/black/00000057.jpg
+将删除 DeepLearning/data/bears/black/00000058.png
+将删除 DeepLearning/data/bears/black/00000059.jpg
+将删除 DeepLearning/data/bears/black/00000060.jpg
+将删除 DeepLearning/data/bears/black/00000061.jpg
+将删除 DeepLearning/data/bears/black/00000062.jpg
+将删除 DeepLearning/data/bears/black/00000063.jpg
+将删除 DeepLearning/data/bears/black/00000065.jpg
+将删除 DeepLearning/data/bears/black/00000066.jpg
+将删除 DeepLearning/data/bears/black/00000068.jpg
+将删除 DeepLearning/data/bears/black/00000069.jpg
+将删除 DeepLearning/data/bears/black/00000070.jpg
+将删除 DeepLearning/data/bears/black/00000071.jpg
+将删除 DeepLearning/data/bears/black/00000072.jpg
+将删除 DeepLearning/data/bears/black/00000073.jpg
+将删除 DeepLearning/data/bears/black/00000074.jpg
+将删除 DeepLearning/data/bears/black/00000075.jpg
+将删除 DeepLearning/data/bears/black/00000077.jpg
+将删除 DeepLearning/data/bears/black/00000078.jpg
+将删除 DeepLearning/data/bears/black/00000079.jpg
+将删除 DeepLearning/data/bears/black/00000080.jpg
+将删除 DeepLearning/data/bears/black/00000083.jpg
+将删除 DeepLearning/data/bears/black/00000084.jpg
+将删除 DeepLearning/data/bears/black/00000086.jpg
+将删除 DeepLearning/data/bears/black/00000088.jpg
+将删除 DeepLearning/data/bears/black/00000089.jpg
+将删除 DeepLearning/data/bears/black/00000090.jpg
+将删除 DeepLearning/data/bears/black/00000091.jpeg
+将删除 DeepLearning/data/bears/black/00000092.jpg
+将删除 DeepLearning/data/bears/black/00000093.jpg
+将删除 DeepLearning/data/bears/black/00000094.jpg
+将删除 DeepLearning/data/bears/black/00000095.jpg
+将删除 DeepLearning/data/bears/black/00000097.jpg
+将删除 DeepLearning/data/bears/black/00000098.jpg
+将删除 DeepLearning/data/bears/black/00000099.jpg
+将删除 DeepLearning/data/bears/cleaned.csv
+将删除 DeepLearning/data/bears/grizzly/00000003.JPG
+将删除 DeepLearning/data/bears/grizzly/00000004.jpg
+将删除 DeepLearning/data/bears/grizzly/00000005.jpg
+将删除 DeepLearning/data/bears/grizzly/00000006.jpg
+将删除 DeepLearning/data/bears/grizzly/00000007.jpg
+将删除 DeepLearning/data/bears/grizzly/00000008.jpg
+将删除 DeepLearning/data/bears/grizzly/00000010.jpg
+将删除 DeepLearning/data/bears/grizzly/00000011.jpg
+将删除 DeepLearning/data/bears/grizzly/00000013.jpg
+将删除 DeepLearning/data/bears/grizzly/00000014.jpg
+将删除 DeepLearning/data/bears/grizzly/00000015.jpg
+将删除 DeepLearning/data/bears/grizzly/00000016.jpg
+将删除 DeepLearning/data/bears/grizzly/00000017.jpg
+将删除 DeepLearning/data/bears/grizzly/00000018.jpg
+将删除 DeepLearning/data/bears/grizzly/00000019.jpg
+将删除 DeepLearning/data/bears/grizzly/00000020.jpg
+将删除 DeepLearning/data/bears/grizzly/00000022.jpg
+将删除 DeepLearning/data/bears/grizzly/00000023.jpg
+将删除 DeepLearning/data/bears/grizzly/00000025.jpg
+将删除 DeepLearning/data/bears/grizzly/00000027.jpg
+将删除 DeepLearning/data/bears/grizzly/00000028.jpg
+将删除 DeepLearning/data/bears/grizzly/00000029.jpg
+将删除 DeepLearning/data/bears/grizzly/00000030.jpg
+将删除 DeepLearning/data/bears/grizzly/00000031.jpg
+将删除 DeepLearning/data/bears/grizzly/00000032.jpg
+将删除 DeepLearning/data/bears/grizzly/00000033.jpg
+将删除 DeepLearning/data/bears/grizzly/00000034.jpg
+将删除 DeepLearning/data/bears/grizzly/00000035.png
+将删除 DeepLearning/data/bears/grizzly/00000037.jpg
+将删除 DeepLearning/data/bears/grizzly/00000038.jpg
+将删除 DeepLearning/data/bears/grizzly/00000041.jpg
+将删除 DeepLearning/data/bears/grizzly/00000042.jpg
+将删除 DeepLearning/data/bears/grizzly/00000043.jpg
+将删除 DeepLearning/data/bears/grizzly/00000044.jpg
+将删除 DeepLearning/data/bears/grizzly/00000046.jpg
+将删除 DeepLearning/data/bears/grizzly/00000047.jpg
+将删除 DeepLearning/data/bears/grizzly/00000048.jpg
+将删除 DeepLearning/data/bears/grizzly/00000050.jpg
+将删除 DeepLearning/data/bears/grizzly/00000051.jpg
+将删除 DeepLearning/data/bears/grizzly/00000052.jpg
+将删除 DeepLearning/data/bears/grizzly/00000053.png
+将删除 DeepLearning/data/bears/grizzly/00000054.jpeg
+将删除 DeepLearning/data/bears/grizzly/00000056.jpg
+将删除 DeepLearning/data/bears/grizzly/00000057.jpg
+将删除 DeepLearning/data/bears/grizzly/00000058.jpg
+将删除 DeepLearning/data/bears/grizzly/00000059.jpg
+将删除 DeepLearning/data/bears/grizzly/00000060.JPG
+将删除 DeepLearning/data/bears/grizzly/00000061.jpg
+将删除 DeepLearning/data/bears/grizzly/00000062.jpg
+将删除 DeepLearning/data/bears/grizzly/00000063.jpg
+将删除 DeepLearning/data/bears/grizzly/00000064.jpg
+将删除 DeepLearning/data/bears/grizzly/00000065.jpg
+将删除 DeepLearning/data/bears/grizzly/00000066.jpg
+将删除 DeepLearning/data/bears/grizzly/00000067.jpg
+将删除 DeepLearning/data/bears/grizzly/00000068.jpg
+将删除 DeepLearning/data/bears/grizzly/00000069.jpg
+将删除 DeepLearning/data/bears/grizzly/00000070.png
+将删除 DeepLearning/data/bears/grizzly/00000071.jpg
+将删除 DeepLearning/data/bears/grizzly/00000072.jpg
+将删除 DeepLearning/data/bears/grizzly/00000073.jpeg
+将删除 DeepLearning/data/bears/grizzly/00000075.jpg
+将删除 DeepLearning/data/bears/grizzly/00000076.jpg
+将删除 DeepLearning/data/bears/grizzly/00000079.jpg
+将删除 DeepLearning/data/bears/grizzly/00000080.jpg
+将删除 DeepLearning/data/bears/grizzly/00000081.jpg
+将删除 DeepLearning/data/bears/grizzly/00000082.jpg
+将删除 DeepLearning/data/bears/grizzly/00000083.jpg
+将删除 DeepLearning/data/bears/grizzly/00000085.jpg
+将删除 DeepLearning/data/bears/grizzly/00000087.jpg
+将删除 DeepLearning/data/bears/grizzly/00000088.jpeg
+将删除 DeepLearning/data/bears/grizzly/00000089.jpg
+将删除 DeepLearning/data/bears/grizzly/00000090.jpg
+将删除 DeepLearning/data/bears/grizzly/00000091.jpg
+将删除 DeepLearning/data/bears/grizzly/00000092.jpg
+将删除 DeepLearning/data/bears/grizzly/00000093.jpg
+将删除 DeepLearning/data/bears/grizzly/00000095.jpg
+将删除 DeepLearning/data/bears/grizzly/00000097.jpg
+将删除 DeepLearning/data/bears/grizzly/00000098.jpg
+将删除 DeepLearning/data/bears/grizzly/00000099.jpg
+将删除 DeepLearning/data/bears/models/
+将删除 DeepLearning/data/bears/teddys/00000000.jpg
+将删除 DeepLearning/data/bears/teddys/00000002.jpg
+将删除 DeepLearning/data/bears/teddys/00000003.jpg
+将删除 DeepLearning/data/bears/teddys/00000004.jpg
+将删除 DeepLearning/data/bears/teddys/00000005.jpg
+将删除 De
+epLearning/data/bears/teddys/00000006.jpg
+将删除 DeepLearning/data/bears/teddys/00000008.jpg
+将删除 DeepLearning/data/bears/teddys/00000009.jpg
+将删除 DeepLearning/data/bears/teddys/00000010.jpg
+将删除 DeepLearning/data/bears/teddys/00000011.jpg
+将删除 DeepLearning/data/bears/teddys/00000012.jpg
+将删除 DeepLearning/data/bears/teddys/00000013.jpeg
+将删除 DeepLearning/data/bears/teddys/00000014.jpg
+将删除 DeepLearning/data/bears/teddys/00000015.jpg
+将删除 DeepLearning/data/bears/teddys/00000016.jpg
+将删除 DeepLearning/data/bears/teddys/00000017.jpg
+将删除 DeepLearning/data/bears/teddys/00000018.jpg
+将删除 DeepLearning/data/bears/teddys/00000019.JPG
+将删除 DeepLearning/data/bears/teddys/00000020.jpg
+将删除 DeepLearning/data/bears/teddys/00000021.JPG
+将删除 DeepLearning/data/bears/teddys/00000022.png
+将删除 DeepLearning/data/bears/teddys/00000023.png
+将删除 DeepLearning/data/bears/teddys/00000025.jpg
+将删除 DeepLearning/data/bears/teddys/00000027.jpg
+将删除 DeepLearning/data/bears/teddys/00000028.jpg
+将删除 DeepLearning/data/bears/teddys/00000029.jpeg
+将删除 DeepLearning/data/bears/teddys/00000030.jpg
+将删除 DeepLearning/data/bears/teddys/00000031.jpg
+将删除 DeepLearning/data/bears/teddys/00000032.jpg
+将删除 DeepLearning/data/bears/teddys/00000033.jpg
+将删除 DeepLearning/data/bears/teddys/00000035.jpg
+将删除 DeepLearning/data/bears/teddys/00000036.jpg
+将删除 DeepLearning/data/bears/teddys/00000037.png
+将删除 DeepLearning/data/bears/teddys/00000038.jpg
+将删除 DeepLearning/data/bears/teddys/00000039.jpg
+将删除 DeepLearning/data/bears/teddys/00000040.jpg
+将删除 DeepLearning/data/bears/teddys/00000041.jpeg
+将删除 DeepLearning/data/bears/teddys/00000042.jpg
+将删除 DeepLearning/data/bears/teddys/00000043.jpg
+将删除 DeepLearning/data/bears/teddys/00000044.jpg
+将删除 DeepLearning/data/bears/teddys/00000045.jpg
+将删除 DeepLearning/data/bears/teddys/00000046.jpg
+将删除 DeepLearning/data/bears/teddys/00000047.jpg
+将删除 DeepLearning/data/bears/teddys/00000049.jpg
+将删除 DeepLearning/data/bears/teddys/00000051.jpg
+将删除 DeepLearning/data/bears/teddys/00000053.jpg
+将删除 DeepLearning/data/bears/teddys/00000054.jpg
+将删除 DeepLearning/data/bears/teddys/00000056.jpg
+将删除 DeepLearning/data/bears/teddys/00000057.jpg
+将删除 DeepLearning/data/bears/teddys/00000058.jpg
+将删除 DeepLearning/data/bears/teddys/00000062.jpg
+将删除 DeepLearning/data/bears/teddys/00000063.jpg
+将删除 DeepLearning/data/bears/teddys/00000064.jpg
+将删除 DeepLearning/data/bears/teddys/00000066.jpg
+将删除 DeepLearning/data/bears/teddys/00000067.jpg
+将删除 DeepLearning/data/bears/teddys/00000069.jpg
+将删除 DeepLearning/data/bears/teddys/00000070.jpg
+将删除 DeepLearning/data/bears/teddys/00000072.jpg
+将删除 DeepLearning/data/bears/teddys/00000073.jpg
+将删除 DeepLearning/data/bears/teddys/00000074.jpg
+将删除 DeepLearning/data/bears/teddys/00000075.jpg
+将删除 DeepLearning/data/bears/teddys/00000076.jpg
+将删除 DeepLearning/data/bears/teddys/00000077.jpg
+将删除 DeepLearning/data/bears/teddys/00000078.jpg
+将删除 DeepLearning/data/bears/teddys/00000079.jpg
+将删除 DeepLearning/data/bears/teddys/00000080.jpg
+将删除 DeepLearning/data/bears/teddys/00000081.jpg
+将删除 DeepLearning/data/bears/teddys/00000082.jpg
+将删除 DeepLearning/data/bears/teddys/00000083.jpg
+将删除 DeepLearning/data/bears/teddys/00000084.jpg
+将删除 DeepLearning/data/bears/teddys/00000085.jpg
+将删除 DeepLearning/data/bears/teddys/00000086.jpg
+将删除 DeepLearning/data/bears/teddys/00000087.jpg
+将删除 DeepLearning/data/bears/teddys/00000088.jpg
+将删除 DeepLearning/data/bears/teddys/00000089.jpg
+将删除 DeepLearning/data/bears/teddys/00000092.jpg
+将删除 DeepLearning/data/bears/teddys/00000093.jpg
+将删除 DeepLearning/data/bears/teddys/00000094.jpg
+将删除 DeepLearning/data/bears/teddys/00000095.jpg
+将删除 DeepLearning/data/bears/teddys/00000096.jpg
+将删除 DeepLearning/data/bears/teddys/00000097.jpg
+将删除 DeepLearning/data/bears/teddys/00000098.jpg
+将删除 DeepLearning/data/bears/url_black.txt
+将删除 DeepLearning/data/bears/url_grizzly.txt
+将删除 DeepLearning/data/bears/url_teddys.txt
+将删除 LeetCode/
+将删除 LintCode/
+将删除 algtest.py
+将删除 anchor-3.1/regression.ipynb
+将删除 cv2_test.py
+将删除 kthsearch.py
+将删除 q5_big_number_mod.py
+将删除 week1/
+将删除 week2/FaceBoxes.ipynb
+将删除 week2/HoG.ipynb
+将删除 week2/fastai.ipynb
+将删除 week2/generate_anchor.py
+将删除 week2/image_0002.jpg
+将删除 week2/image_0016.jpg
+将删除 week2/image_0075.jpg
+将删除 week2/image_0090.jpg
+将删除 week2/image_0120.jpg
+将删除 week2/intersection_over_union.py
+将删除 week2/lenna.jpeg
+将删除 week2/nms.py
+将删除 week2/week2.py
+将删除 "week2/\344\270\213\350\275\275.jpeg"
+将删除 week4/
+将删除 week5.py
