@@ -45,10 +45,15 @@ class Solution:
             nonlocal res
             if not node:
                 return 0
+            # 找出左子树最大sum
             left = max(maxPath(node.left), 0)
+            # 找出右子树最大sum
             right = max(maxPath(node.right), 0)
+            # 新路径的sum
             path = left + right + node.val
+            # 检查新路径还是旧路径
             res = max(res, path)
+            # 递归返回当前结点的最大路径
             return node.val + max(left, right)
         maxPath(root)
         return res
