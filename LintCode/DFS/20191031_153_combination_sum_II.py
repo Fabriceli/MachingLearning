@@ -83,9 +83,33 @@ class Solution:
             self.__dfs(candidates, size, index + 1, path, residue - candidates[index], res)
             path.pop()
 
+    def combinationSum3(self, candidates: List[int], target: int) -> List[List[int]]:
+        if len(candidates) <= 0:
+            return []
+        res = []
+        candidates.sort()
+        self.dfs3(candidates, target, 0, [], res)
+        return res
+
+    # 递归定义
+    def dfs3(self, candidates, remain_target, start_index, path, res):
+        if remain_target == 0:
+            res.append(path[:])
+            return
+        # 递归拆解
+        for i in range(start_index, len(candidates)):
+            if remain_target < candidates[i]:
+                return
+            # 不隔个取
+            if i != start_index and candidates[i] == candidates[i - 1]:
+                continue
+            path.append(candidates[i])
+            self.dfs3(candidates, remain_target - candidates[i], i, path, res)
+            path.pop()
+
 
 if __name__ == '__main__':
     s = Solution()
     num = [1, 1, 1]
     target = 2
-    print(s.combinationSum2(num, target))
+    print(s.combinationSum3(num, target))

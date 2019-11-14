@@ -51,8 +51,36 @@ class Solution:
             path.pop()
 
 
+    def combinationSum2(self, candidates, target):
+        if len(candidates) <= 0:
+            return []
+        res = []
+        candidates.sort()
+        self.__dfs(candidates, target, 0, [], res)
+        return res
+
+    # 递归的定义
+    # 找到所有以condidate开头的的哪些和为target的结果都放到res里，下一个加入path的数，
+    # 至少从candidate的start_index开始
+    def __dfs(self, candidates, remain_target, start_index, path, res):
+        if remain_target == 0:
+            res.append(path[:])
+            return
+        # 递归的拆解
+        for i in range(start_index, len(candidates)):
+            if remain_target < candidates[i]:
+                break
+            # 去掉candidate中重复的，[2，2，3，4，6]
+            if i > 0 and candidates[i] == candidates[i - 1]:
+                continue
+            path.append(candidates[i])
+            self.__dfs(candidates, remain_target - candidates[i], i, path, res)
+            path.pop()
+
+
+
 if __name__ == '__main__':
     s = Solution()
     candidates = [2, 3, 6, 7]
     target = 7
-    print(s.combinationSum(candidates, target))
+    print(s.combinationSum2(candidates, target))
