@@ -51,6 +51,6 @@ class Solution:
 
 if __name__ == '__main__':
     s = Solution()
-    dividend = -2147483648
-    divisor = -1
+    dividend = 1
+    divisor = 1
     print(s.divide(dividend, divisor))
