@@ -26,7 +26,11 @@ from queue import Queue
 from typing import List
 import collections
 
+"""
+图的遍历（由点及面） 条件1：刚好N-1条边 条件2：N个点连通
 
+问：如何用基本数据结构表示一个图？
+"""
 class Solution:
     def validTree(self, n: int, edges: List[List[int]]) -> bool:
         if len(edges) != n - 1:
